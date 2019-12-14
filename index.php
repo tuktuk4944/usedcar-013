@@ -150,6 +150,14 @@
                     $page="ShowCar.php";
                     break;
                 }
+                case "edit":{
+                    $page="editproduct.php";
+                    break;
+                }
+                case "insert":{
+                    $page="insertPro.php";
+                    break;
+                }
                 default:{
                     $page="main.php";
                 }
