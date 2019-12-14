@@ -3,4 +3,3 @@
         <h1 class="page-header">Page</h1>
     </div>
 </div>
-<!-- ... Your content goes here ... -->
