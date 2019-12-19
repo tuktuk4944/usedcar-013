@@ -31,7 +31,7 @@
         $result=$conn->query($sqlInsert);
         if($result){
            echo "<script language='javascript'>alert('Insert Product Complete');</script>"; 
-           header("Location: ShowAllCar.php");
+           header("Location: index.php?menu=allCar");
         }
         else{
             echo "Error during insert: ".$conn->error;

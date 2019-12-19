@@ -46,13 +46,7 @@
                             <a href="index.php?menu=edit&pid=<?php echo $prd->id ?>" class="btn btn-warning"><i class="glyphicon glyphicon-pencil"></i></a>
                             <a href="deleteproduct.php?pid=<?php echo $prd->id ?>" class="btn btn-danger lnkDelete" ><i class="glyphicon glyphicon-trash"></i></a>
                             </p>
-                            <script>
-                            $(document).ready(function(){
-                                $(".lnkDelete").click(function(){
-                                    return confirm("Confirm Delete?");
-                                });
-                            });
-                            </script>
+                            
                             <?php
                         }
                         ?>
@@ -63,6 +57,13 @@
                     }
                 }
             ?>
-                
+              <script>
+                            $(document).ready(function(){
+                                $(".lnkDelete").click(function(){
+                                    return confirm("Confirm Delete?");
+                                });
+                            });
+                            </script>  
             </div>
         </div>
+        
